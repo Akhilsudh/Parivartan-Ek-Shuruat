@@ -38,7 +38,7 @@
 		</div>
 		<div class="body">
 			<div class="contact">
-			<h2>Log-in</h2>
+			<strong><h2 style="color: #000000;font-weight: bold;">Log-in</h2></strong>
 				<body>
 <form action="validateuser.jsp" method="POST" name="theForm"><br/><br/><br/><br/>
 <table align=center >
