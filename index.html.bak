@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Welcome to FutureTech</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css" /> 
+	</head>
+<body>
+	<div id="header">
+		<div>
+			<div id="logo">
+                <br>
+				<a href="index.html"><img src="images/f_logo.png" alt="Logo" /></a>
+			</div>
+			
+            <H1 style="color:black;font-family:cursive"> <b>WELCOME TO FUTURE TECHNOLOGY WORLD</b></H1>
+
+		</div>
+	</div>
+	<div id="content">
+		<div id="section">
+			<div>
+				<h2>Future Technologies!</h2>
+				<p style="color:black">This website will all about the upcoming future technologies in the market. In this website we will find general information on science, technology and future related devices which will definitely change our life style.....</p>
+				<span>
+					<a class="first" href="login.jsp">Login</a>
+					<a href="signup.html">Register</a>
+				</span>
+			</div>
+			<div id="figure">
+				<a href="index.html"><img src="images/little-girl-blowing-wind-mill.jpg" alt="Image" /></a>
+				<span></span>
+			</div>
+			<span class="background"></span>
+		</div>
+		<div id="featured">
+			<ul>
+				<li class="first">
+					<a href="mp3.html"><img src="images/g_ear.jpg" alt="Image" height="160" /></a>
+					<span></span>
+					<p>It is quite apparent that all ladies will have a soft corner for the Accessories MP3 Player. This MP3 players can be as fashion statement, jewelry, bling and so.</p>
+					<a class="link" href="mp3.html">Stylish Mp3</a>
+				</li>
+				<li>
+					<a href="printer.html"><img src="images/printer.jpg" height="160" alt="Image" /></a>
+					<span></span>
+					<p>It was about time that someone came up with this, I mean we are in the portable era! Stick POP is a portable printer that can handle a small amount of load. </p>
+					<a class="link" href="printer.html">Portable Printer</a>
+				</li>
+				<li>
+					<a href="keyboard.html"><img src="images/keybd.jpg" height="160" alt="Image" /></a>
+					<span></span>
+					<p>Tablets and smartphones very many have replaced the personal computers in their classic version with keyboard, mouse, monitor and the system unit. </p>
+					<a class="link" href="keyboard.html">Pocket Keyboard</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Log-in</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script>  
+function validateform()
+{  
+var uname=document.f1.t1.value;  
+var password=document.f1.t2.value;
+var name=document.f1.t3.value;
+var mobile=document.f1.t4.value;
+var email=document.f1.t5.value;
+  
+if (uname==null || uname=="")
+{  
+  alert("UserName can't be blank");  
+  return false;  
+}
+else if(password.length<6)
+{  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+}
+if (name==null || name=="")
+{  
+  alert("Name can't be blank");  
+  return false;  
+}
+if (mobile==null || mobile=="")
+{  
+  alert("Mobile No. can't be blank");  
+  return false;  
+}
+if (email==null || email=="")
+{  
+  alert("Email can't be blank");  
+  return false;  
+}
+
+}  
+</script>  
+
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<a href="index.html" id="logo"><img src="images/prlogo.jpg" alt="logo"></a>
+			<div>
+				<div>
+					<a href="signup.html">Sign Up</a> <span>|</span> <a href="login.jsp">Log-in</a>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="index.html"><span>Home</span></a>
+						</li>
+						<li>
+							<a href="about.html"><span>About</span></a>
+						</li>
+						<li>
+							<a href="ideas.html"><span>Events</span></a>
+						</li>
+						<li>
+							<a href="contact.html"><span>Contact</span></a>
+						</li>
+					</ul>
+					<form action="index.html">
+						<input type="text" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Enter search query':this.value;" value="Enter search query">
+						<input type="submit" value="">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div class="contact">
+			<h2>Register</h2>
+    <body bgcolor="cyan">
+    <form name="f1" method="post" action="insertData.jsp" onsubmit="return validateform()">
+        <center>
+        <table border="1" cellspacing="12" cellpadding="6">
+           <marquee>Please fill the form for Registration</marquee>
+<tr><th>Username :</th><td><input type="text" name="t1" placeholder="Enter Username"></td></tr><br>
+<tr><th>Password:</th><td><input type="password" name="t2" placeholder="Enter Password"></td></tr><br>
+<tr><th>Name :</th><td><input type="text" name="t3" placeholder="Enter Name"></td></tr>
+<tr><th>Mobile :</th><td><input type="text" name="t4" placeholder="Enter Mobile"></td></tr>    
+  <tr><th>Email :</th><td><input type="text" name="t5" placeholder="Enter Email"></td></tr>      <tr><td><input type="reset"><td><input type="submit" value="Register"></td></tr>
+
+        </table></center>
+    </form>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <div class="footer">
+			<div>
+				<div>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="ideas.html">Events</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+					<p>
+						&#169; Copyright &#169; 2015.Parivartan-Ek Shuruat. all rights reserved
+					</p>
+					<div class="connect">
+						<a href="http://www.facebook.com/" id="fb">facebook</a> <a href="http://www.twitter.com/" id="twitter">twitter</a> <a href="http://www.googleplus.com/" id="googleplus">googleplus</a> <a href="http://www.youtube.com/" id="vimeo">vimeo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+    </body>
+
+</html>
+
+

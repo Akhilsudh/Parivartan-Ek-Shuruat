@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>Validatentry</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/Validatentry</url-pattern>
+</servlet-mapping>
+</web-app>
+
+
